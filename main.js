@@ -8,6 +8,6 @@ body.append(div);
 
 $('div').on('click', () => alert("Hello World!"));
 
-// div.on('click', function(){
-//     alert("Hello World!");
-// })
+div.on('click', function(){
+    alert("Hello World!");
+})
